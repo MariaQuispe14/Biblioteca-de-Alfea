@@ -1,0 +1,173 @@
+body  {
+    background-color: #FDF5E6;
+    margin: 0;
+    padding: 0;
+           
+}
+
+
+#nav ul {
+    
+  list-style-type: none;
+    
+  padding: 0;
+   
+    
+  text-align: center; 
+  margin-top: 40px; 
+  margin-bottom: 60px;
+}
+
+#nav li {
+    
+  display: inline-block; 
+  font-family: 'Poppins', sans-serif;
+    
+  font-size: 24px;
+}
+
+#nav li:not(:last-child) {
+    
+  border-right: 2px solid #6A0DAD;
+}
+
+#nav li a {
+    
+ text-decoration: none;   
+ color: #3b2a50;   
+ padding: 0 20px;
+ transition: color 0.3s ease-in-out;
+
+}
+
+#nav li a:hover {
+    
+ color: #6A0DAD;
+
+}
+
+li {
+  display: inline;
+  padding: 5px;
+  text-align: center; 
+}
+
+
+h1 {
+    
+  font-family: 'Cinzel', serif; 
+  font-size: 40px;
+    
+  text-align: center; 
+    
+  color: #6A0DAD;
+
+  margin-bottom: 0px;
+}
+
+h2  {
+    font-family: Cinzel, serif;
+    font-size: 18px;
+    text-align: center;
+    color: #2c2c2c;
+    margin-top: 5px;
+}
+
+p{
+    font-family: poppins;
+    font-size: 13px;
+    color: #2c2c2c
+}
+
+figure{
+text-align: center; 
+margin-top: 50px;
+overflow: hidden;
+}
+
+figure img {
+border-radius: 20px;
+display: block;      
+margin: 0 auto;
+}
+
+#menu-imagens {
+    
+  list-style-type: none; 
+  padding: 0;
+    
+  margin: 60px auto; 
+  display: flex; 
+  justify-content: center;
+  gap: 80px; 
+
+}
+
+#menu-imagens li {
+    
+text-align: center;
+
+}
+
+#menu-imagens a {
+    
+text-decoration: none;
+    
+color: #3b2a50;    
+font-family: 'Poppins', sans-serif;
+    
+font-size: 16px;
+
+}
+
+#menu-imagens img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: contain; 
+    display: block; 
+    margin: 0 auto 10px auto; 
+}
+
+
+#menu-imagens a:hover {
+    
+color: #6A0DAD; 
+}
+
+
+
+footer {
+    margin-top: 120px; 
+    border-top: 2px solid #6A0DAD;
+    padding: 20px 50px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.rodape-texto {
+    text-align: left;
+}
+
+
+.rodape-texto p {
+    margin: 5px 0;
+    color: #2c2c2c;
+}
+
+
+#redes-sociais {
+    margin: 10px 0; 
+}
+
+#redes-sociais a {
+    color: #3b2a50; 
+    font-size: 24px; 
+    margin-right: 15px; 
+    transition: color 0.3s ease-in-out;
+}
+
+
+#redes-sociais a:hover {
+    color: #6A0DAD; 
+}
